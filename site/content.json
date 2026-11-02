@@ -1,0 +1,271 @@
+{
+  "profile": {
+    "name": "Rohan Marar",
+    "role": "AI Engineer. Robotics researcher. Author. Lifelong homelabber.",
+    "headline": "Curious about intelligence. Driven to build.",
+    "intro": "I work across artificial intelligence, robotics, and the systems that bring ideas to life. Currently pursuing an M.S. in Artificial Intelligence at the University at Buffalo, and contributing to research at DRONESLab.",
+    "about": "I like understanding complex systems from first principles, then building something useful with what I learn. My interests span deep learning, robotic perception, reinforcement learning, and self-hosted infrastructure.\n\nAt UB's DRONESLab, I volunteer on active illumination for Boston Dynamics Spot, supporting data collection in challenging lighting conditions and exploring 3D reconstruction workflows.\n\nOutside engineering, I write books, lift weights, cook, and think far too much about films. This site is a record of the things I build and the questions that keep me curious.",
+    "location": "Buffalo, New York",
+    "education": "M.S. Artificial Intelligence · University at Buffalo",
+    "graduation": "December 2026 (expected)",
+    "current": "Volunteer researcher · DRONESLab",
+    "focus": "AI, robotic perception, reinforcement learning",
+    "stack": "Python, PyTorch, Linux, Docker, ESPHome",
+    "email": "rohanmarar5manza@gmail.com",
+    "github": "https://github.com/Rohan5manza",
+    "linkedin": "https://www.linkedin.com/in/rohan-marar-77515a1bb/",
+    "instagram": "https://www.instagram.com/rohan__marar/",
+    "youtube": "https://www.youtube.com/@rohan_marar",
+    "portrait": "assets/portrait.jpg",
+    "substack": "https://rohanmarar.substack.com/"
+  },
+  "projects": [
+    {
+      "id": "active-illumination",
+      "title": "Active illumination for Spot",
+      "category": "Robotics",
+      "status": "In progress",
+      "year": "2026",
+      "summary": "Exploring how lighting affects robotic perception, through low-light data collection and 3D reconstruction workflows at UB's DRONESLab.",
+      "body": "Reliable perception becomes harder when a robot moves through dark corridors, reflective surfaces, and uneven lighting. I contribute to an active illumination project for Boston Dynamics Spot at the University at Buffalo.\n\nMy work includes operating Spot during data collection and exploring a reconstruction pipeline from recorded imagery through COLMAP and GenRecon. The longer-term direction is a library of reconstructed environments for studying robotic perception under changing illumination.\n\nThis is ongoing work. Reconstruction quality and material realism remain areas to improve.",
+      "role": "Volunteer researcher",
+      "stack": "Boston Dynamics Spot, COLMAP, GenRecon, Blender",
+      "organization": "DRONESLab · University at Buffalo",
+      "image": "assets/active-illumination.png",
+      "url": "",
+      "linkLabel": "",
+      "featured": true
+    },
+    {
+      "id": "cadence",
+      "title": "Cadence",
+      "category": "AI & ML",
+      "status": "Built",
+      "year": "May — Jun 2026",
+      "summary": "A personalized research-paper discovery platform: semantic recommendations, a swipe-based feed, and a cross-platform PWA.",
+      "body": "I designed and built Cadence as a full-stack research discovery app, with the idea of making research discovery feel as personal as a music feed.\n\nI fine-tuned SPECTER2 on a corpus of 2.28 million research papers across computer science, physics, biology, medicine, mathematics, and economics, generating 768-dimensional embeddings. A usearch vector index and interaction-weighted taste vectors power a personalized feed, with recency decay and sub-300 ms feed generation.\n\nThe ingestion pipeline pulls more than 500 new papers daily from arXiv and bioRxiv, embeds them on my local RTX 4060 Ti, and hot-reloads the live index.\n\nI built a FastAPI backend with JWT authentication and Supabase PostgreSQL, and a React Native + Expo frontend exported as an installable PWA. It includes swipe-based discovery, personalized sections, open-access PDF reading, reading streaks, saved libraries, playlists, and an eight-step onboarding flow.\n\nI handled the full stack: model fine-tuning, ingestion, recommendation logic, API, frontend, infrastructure, and deployment.",
+      "role": "Sole developer",
+      "stack": "SPECTER2, usearch, FastAPI, Supabase, React Native, Expo",
+      "organization": "Personal project",
+      "image": "",
+      "url": "https://cadence.rohanmarar.com",
+      "linkLabel": "Open Cadence",
+      "featured": true
+    },
+    {
+      "id": "watcherml",
+      "title": "WatcherML",
+      "category": "AI & ML",
+      "status": "Open source",
+      "year": "Jul — Aug 2026",
+      "summary": "A local-first Python SDK and CLI for recording reproducible ML runs, investigating failures, and verifying bounded recovery.",
+      "body": "I built WatcherML as a pip-installable Python SDK and command-line tool for recording configurations, artifacts, model state, and failure conditions.\n\nIt captures reproducible training runs and packages failure evidence into deterministic capsules. Recovery campaigns make failed experiments easier to reproduce, analyze, and recover under explicit compute and quality constraints.\n\nLocal SQLite storage and portable artifacts keep the evidence close to the experiment. The current published package focuses on recorded evidence, deterministic failure classification, controlled CUDA out-of-memory interventions, and independent confirmation of a recovery.\n\nInstall the package with: pip install watcherml",
+      "role": "Creator & developer",
+      "stack": "Python, SQLite, PyTorch, CLI, experiment tracking",
+      "organization": "Open-source project",
+      "image": "",
+      "url": "https://pypi.org/project/watcherml/",
+      "linkLabel": "View on PyPI",
+      "featured": false
+    },
+    {
+      "id": "bulkbites",
+      "title": "Bulkbites",
+      "category": "AI & ML",
+      "status": "Built",
+      "year": "Product",
+      "summary": "An Android nutrition app combining custom food recognition models, meal planning, and fitness tracking.",
+      "body": "I co-founded Tensorbuilds with Prathmesh Gawali and built Bulkbites, an AI-powered nutrition app for Android.\n\nI developed custom computer vision models to identify more than 260 foods, and built the mobile app in React Native. The PyTorch models were deployed on an Ubuntu virtual machine in Oracle Cloud.\n\nThe app brings together food logging, micronutrient information, barcode scanning, meal planning, weight tracking, and workout summaries.",
+      "role": "Co-founder · AI & app development",
+      "stack": "PyTorch, React Native, Python, Oracle Cloud",
+      "organization": "Tensorbuilds",
+      "image": "assets/bulkbites.png",
+      "url": "https://play.google.com/store/apps/details?id=com.tensorbuilds.bulkbites",
+      "linkLabel": "Google Play",
+      "featured": true
+    },
+    {
+      "id": "homelab",
+      "title": "A home for my infrastructure",
+      "category": "Systems",
+      "status": "Ongoing",
+      "year": "Personal",
+      "summary": "A personal Linux homelab for self-hosted services, development, observability, and home automation.",
+      "body": "My homelab is where I learn by running real systems. It has evolved from experiments with Proxmox and virtual machines into a Linux workstation running Docker-based services.\n\nI use it for development, self-hosted tools, monitoring, and Home Assistant. Working with reverse proxies, Cloudflare tunnels, containers, and backups has made infrastructure a hands-on part of my engineering practice.\n\nRecent work includes room-temperature sensors built with ESP8266 boards and BME280 sensors, connected to Home Assistant and a Z-Wave thermostat.",
+      "role": "Design, deployment & maintenance",
+      "stack": "Ubuntu, Docker, Home Assistant, ESPHome, Z-Wave",
+      "organization": "Personal project",
+      "image": "assets/homelab.png",
+      "url": "#/writing/homelab_v1",
+      "linkLabel": "Read the original write-up",
+      "featured": true
+    },
+    {
+      "id": "yolonas",
+      "title": "Object detection with YOLO-NAS",
+      "category": "AI & ML",
+      "status": "Built",
+      "year": "Experiment",
+      "summary": "Transfer learning experiments with pretrained object detectors, custom datasets, and iterative fine-tuning.",
+      "body": "A computer vision project exploring how pretrained object detection models can be adapted to a custom dataset.\n\nI ran experiments with fine-tuning techniques and documented the training approach and results in the repository's technical report.",
+      "role": "Model training & experimentation",
+      "stack": "Python, PyTorch, YOLO-NAS",
+      "organization": "Personal project",
+      "image": "assets/yolo.jpeg",
+      "url": "https://github.com/Rohan5manza/YOLONAS-Object-detection-",
+      "linkLabel": "View repository",
+      "featured": false
+    }
+  ],
+  "writing": [
+    {
+      "id": "film",
+      "title": "On creativity: My hobby of film watching, cinema direction and screenwriting, and fiction storywriting",
+      "date": "2026-01-29",
+      "category": "cinema, filmography, storywriting, direction",
+      "summary": "I love analyzing Hollywood movies and TV shows deeply. This is my account of my observations.",
+      "image": "assets/blog/fbaa96c962bee7cf.jpg",
+      "url": "#/writing/film",
+      "contentPath": "posts/film.json",
+      "sourceUrl": "https://www.rohanmarar.com/blog/film"
+    },
+    {
+      "id": "nyc",
+      "title": "Why NYC is geographically and structurally perfect",
+      "date": "2025-12-31",
+      "category": "Travel, USA",
+      "summary": "My trip to New York City was so fun... here are some things I immediately noticed about it",
+      "image": "assets/blog/eeba3a9b9978f27d.jpg",
+      "url": "#/writing/nyc",
+      "contentPath": "posts/nyc.json",
+      "sourceUrl": "https://www.rohanmarar.com/blog/nyc"
+    },
+    {
+      "id": "sammu",
+      "title": "愛する人へ",
+      "date": "2025-12-28",
+      "category": "Personal",
+      "summary": "28th April... A very special day.",
+      "image": "assets/blog/fd82dc5b4d964d7b.jpg",
+      "url": "#/writing/sammu",
+      "contentPath": "posts/sammu.json",
+      "sourceUrl": "https://www.rohanmarar.com/blog/sammu"
+    },
+    {
+      "id": "homelab_v1",
+      "title": "My first homelab journey",
+      "date": "2025-06-09",
+      "category": "homelab, linux, self-hosting",
+      "summary": "This is my personal blog on my homelab journey. I am writing this as a personal note-taking, and as a record for all things I did, and a baseline for my future homelab plans.",
+      "image": "assets/blog/28cba8cac9b74238.png",
+      "url": "#/writing/homelab_v1",
+      "contentPath": "posts/homelab_v1.json",
+      "sourceUrl": "https://www.rohanmarar.com/blog/homelab_v1"
+    },
+    {
+      "id": "building_stuff",
+      "title": "An essay on entrepreneurship and building stuff",
+      "date": "2025-04-10",
+      "category": "Business, Innovation, Entrepreneurship",
+      "summary": "My opinion on what the true spirit of entrepreneurship is, and a glimpse into my journey of building my first (failed) unofficial college startup",
+      "image": "assets/blog/bfa16ec30eebbb0e.jpg",
+      "url": "#/writing/building_stuff",
+      "contentPath": "posts/building_stuff.json",
+      "sourceUrl": "https://www.rohanmarar.com/blog/building_stuff"
+    },
+    {
+      "id": "bodybuilding",
+      "title": "My bodybuilding journey",
+      "date": "2023-10-08",
+      "category": "Bodybuilding, gym",
+      "summary": "My training motivation and philosophy",
+      "image": "assets/blog/6f5a948fef23bfd6.jpg",
+      "url": "#/writing/bodybuilding",
+      "contentPath": "posts/bodybuilding.json",
+      "sourceUrl": "https://www.rohanmarar.com/blog/bodybuilding"
+    }
+  ],
+  "books": [
+    {
+      "title": "Macros With Flavor",
+      "category": "High-protein cooking",
+      "summary": "13 high-protein recipes with measured ingredients, cutting and bulking portions, estimated macros, practical meal-prep advice, and QR-linked video recipes.",
+      "image": "assets/macros-with-flavor.png",
+      "url": "https://a.co/d/0bgwKWTm"
+    },
+    {
+      "title": "Deep Learning Deciphered",
+      "category": "Artificial intelligence",
+      "summary": "A journey through neural networks guided by the logic and observation of Sherlock Holmes.",
+      "image": "assets/deep-learning.jpg",
+      "url": "https://a.co/d/cicW5BO"
+    },
+    {
+      "title": "Grounds for Suspicion",
+      "category": "A Julius Brandt murder mystery",
+      "summary": "A retired detective, a secluded manor, and a family dinner that becomes a carefully planned murder.",
+      "image": "assets/grounds.jpg",
+      "url": "https://www.amazon.com/Grounds-Suspicion-Julius-Brandt-Mystery/dp/B0GX9XLZZ9"
+    },
+    {
+      "title": "The Incentive Engine",
+      "category": "Economics meets science fiction",
+      "summary": "Three clashing economic worldviews collide with a secret that threatens the universe's financial order.",
+      "image": "assets/incentive.jpg",
+      "url": "https://a.co/d/epMzRQk"
+    },
+    {
+      "title": "Achilles and the Tortoise",
+      "category": "Dialogues on a Godless Universe",
+      "summary": "Philosophical conversations about the universe, life, purpose, faith, and natural law.",
+      "image": "assets/achilles.jpg",
+      "url": "https://a.co/d/0guw64V"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2026 — Present",
+      "title": "Volunteer researcher",
+      "organization": "DRONESLab · University at Buffalo",
+      "description": "Contributing to active illumination research for Boston Dynamics Spot, with a focus on data collection and 3D reconstruction workflows."
+    },
+    {
+      "period": "2025 — 2026",
+      "title": "M.S. in Artificial Intelligence",
+      "organization": "University at Buffalo",
+      "description": "Graduate study in artificial intelligence, including computer vision and reinforcement learning. Expected graduation: December 2026."
+    },
+    {
+      "period": "Product development",
+      "title": "Co-founder & builder",
+      "organization": "Tensorbuilds · Bulkbites",
+      "description": "Built custom food recognition models and a React Native nutrition app, bringing machine learning into an end-to-end product."
+    }
+  ],
+  "other": [
+    {
+      "id": "codepvg",
+      "title": "CodePVG",
+      "period": "Jun 2021 — Oct 2022",
+      "category": "Student community & volunteering",
+      "role": "Co-founder and ML team leader",
+      "organization": "PVG’s College of Engineering & Technology",
+      "description": "During my undergraduate studies, I co-founded CodePVG and led its machine learning team. It was an opportunity to build a student coding community and contribute beyond coursework.",
+      "image": "",
+      "url": "",
+      "linkLabel": ""
+    },
+    {
+      "id": "tensorbuilds",
+      "title": "TensorBuilds",
+      "period": "Undergraduate years",
+      "category": "My first unofficial startup",
+      "role": "Co-founder · Product & ML development",
+      "organization": "TensorBuilds",
+      "description": "My first attempt at building and running an unofficial startup began during college. I experimented with Wealthify, a financial forecasting web service, and later worked with my co-founder Prathmesh Gawali on InfraEdge, a hosting service running on our own Linux infrastructure.\n\nWe eventually focused on Bulkbites, an AI-powered nutrition app for Android. I built custom food recognition models and the React Native app, while learning about deployment, marketing, outreach, and bringing an idea to real users.\n\nI later handed over my code and app access to my co-founder before moving to the United States. The experience shaped how I approach building products.",
+      "image": "assets/bulkbites.png",
+      "url": "#/writing/building_stuff",
+      "linkLabel": "Read the full story"
+    }
+  ]
+}

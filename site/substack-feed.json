@@ -1,0 +1,114 @@
+{
+  "updatedAt": "2026-11-02T20:00:00Z",
+  "posts": [
+    {
+      "id": "the-thermostat-wars-revenge-of-the",
+      "title": "The Thermostat Wars: Revenge of the Engineer",
+      "date": "2026-10-22",
+      "category": "Substack",
+      "summary": "How I stopped fighting my roommates over the heat and engineered a room-aware, locally automated HVAC controller.",
+      "url": "https://rohanmarar.substack.com/p/the-thermostat-wars-revenge-of-the",
+      "source": "substack"
+    },
+    {
+      "id": "why-data-collection-is-extremely",
+      "title": "Why Data Collection is extremely important for cutting-edge research... and how it looks like",
+      "date": "2026-10-21",
+      "category": "Substack",
+      "summary": "The work behind datasets, experiments, and robotics demonstrations.",
+      "url": "https://rohanmarar.substack.com/p/why-data-collection-is-extremely",
+      "source": "substack"
+    },
+    {
+      "id": "how-i-turned-my-campus-job-into-an",
+      "title": "How I Turned My Campus Job Into an Optimization Problem",
+      "date": "2026-09-28",
+      "category": "Substack",
+      "summary": "Solving an optimization problem in my real-world life scenario.",
+      "url": "https://rohanmarar.substack.com/p/how-i-turned-my-campus-job-into-an",
+      "source": "substack"
+    },
+    {
+      "id": "why-onlyfans-sells-more-than-golds",
+      "title": "Why OnlyFans sells more than Gold’s Gym ?",
+      "date": "2026-01-30",
+      "category": "Substack",
+      "summary": "Thoughts on how people choose what to spend their money on.",
+      "url": "https://rohanmarar.substack.com/p/why-onlyfans-sells-more-than-golds",
+      "source": "substack"
+    },
+    {
+      "id": "ep1-kaggle-is-the-best-for-ml-engineers",
+      "title": "EP.1 Kaggle is the BEST for ML engineers who don’t have local GPUs ?",
+      "date": "2026-01-30",
+      "category": "Substack",
+      "summary": "Sesame AI, conversational AI, and Kaggle for machine learning engineers.",
+      "url": "https://rohanmarar.substack.com/p/ep1-kaggle-is-the-best-for-ml-engineers",
+      "source": "substack"
+    },
+    {
+      "id": "american-capitalism-part-2-the-insidious",
+      "title": "American Capitalism Part 2 : The insidious nature of MNCs and the dual-edged sword of monopolization.",
+      "date": "2024-11-24",
+      "category": "Substack",
+      "summary": "Large corporations, innovation, economic policy, and monopolization.",
+      "url": "https://rohanmarar.substack.com/p/american-capitalism-part-2-the-insidious",
+      "source": "substack"
+    },
+    {
+      "id": "american-capitalism-the-most-powerful",
+      "title": "American Capitalism : the most powerful system",
+      "date": "2024-11-13",
+      "category": "Substack",
+      "summary": "My beliefs regarding the USA, geopolitics and world economics.",
+      "url": "https://rohanmarar.substack.com/p/american-capitalism-the-most-powerful",
+      "source": "substack"
+    },
+    {
+      "id": "what-jim-simons-medallion-fund-may",
+      "title": "What Jim Simons' Medallion Fund may teach us about open-sourcing AI models?",
+      "date": "2024-08-09",
+      "category": "Substack",
+      "summary": "Hype bubbles in finance and AI, and the case against open-sourcing models.",
+      "url": "https://rohanmarar.substack.com/p/what-jim-simons-medallion-fund-may",
+      "source": "substack"
+    },
+    {
+      "id": "the-master-algorithm",
+      "title": "The master algorithm",
+      "date": "2024-07-02",
+      "category": "Substack",
+      "summary": "What could the road to AGI look like ?",
+      "url": "https://rohanmarar.substack.com/p/the-master-algorithm",
+      "source": "substack"
+    },
+    {
+      "id": "the-intersection-of-modern-physics",
+      "title": "The intersection of modern physics, math, and consciousness, and a new view of AGI",
+      "date": "2024-04-21",
+      "category": "Substack",
+      "summary": "My thoughts on Roger Penrose’s book The Emperor’s New Mind.",
+      "url": "https://rohanmarar.substack.com/p/the-intersection-of-modern-physics",
+      "source": "substack"
+    },
+    {
+      "id": "current-limitations-of-state-of-the-617",
+      "title": "Current limitations of state-of-the-art NLP systems, and how they can be overcome",
+      "date": "2024-01-22",
+      "category": "Substack",
+      "summary": "An in-depth review of the limitations of the transformer model.",
+      "url": "https://rohanmarar.substack.com/p/current-limitations-of-state-of-the-617",
+      "source": "substack"
+    },
+    {
+      "id": "machine-learning-to-predict-nft-prices",
+      "title": "Machine Learning to predict NFT prices",
+      "date": "2023-12-25",
+      "category": "Substack",
+      "summary": "Adding certainty to an uncertain financial vehicle using big data and AI.",
+      "url": "https://rohanmarar.substack.com/p/machine-learning-to-predict-nft-prices",
+      "source": "substack"
+    }
+  ],
+  "mode": "snapshot"
+}
