@@ -32,7 +32,7 @@
       "stack": "Boston Dynamics Spot, COLMAP, GenRecon, Blender",
       "organization": "DRONESLab · University at Buffalo",
       "image": "assets/active-illumination.png",
-      "url": "",
+      "url": "https://substack.com/home/post/p-221439969",
       "linkLabel": "",
       "featured": true
     },
@@ -64,8 +64,8 @@
       "stack": "Python, SQLite, PyTorch, CLI, experiment tracking",
       "organization": "Open-source project",
       "image": "",
-      "url": "https://pypi.org/project/watcherml/",
-      "linkLabel": "View on PyPI",
+      "url": "https://watcherml.rohanmarar.com/",
+      "linkLabel": "View PyPI package",
       "featured": false
     },
     {
@@ -96,7 +96,7 @@
       "stack": "Ubuntu, NVIDIA RTX 4060 Ti, Python, Docker Compose, DVC, MinIO, Prefect, Prometheus, Grafana, Loki, Home Assistant, ESPHome, ESP8266, BME280, Z-Wave, Cloudflare Tunnel, Tailscale",
       "organization": "Independent engineering & research project",
       "image": "assets/homelab.png",
-      "url": "#/writing/homelab_v1",
+      "url": "https://homelab.rohanmarar.com",
       "linkLabel": "Read the original write-up",
       "featured": true
     },
