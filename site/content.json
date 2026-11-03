@@ -267,5 +267,34 @@
       "url": "#/writing/building_stuff",
       "linkLabel": "Read the full story"
     }
+  ], 
+  "websites": [
+    {
+      "title": "Manza & Ganza",
+      "category": "Creative world",
+      "subtitle": "A corner of the internet for two remarkable cats.",
+      "description": "An imaginative home for Manza and Ganza, with their stories, personalities, and adventures.",
+      "url": "https://manza.rohanmarar.com",
+      "linkLabel": "Visit the cats",
+      "mark": "M&G"
+    },
+    {
+      "title": "Buffy Lab",
+      "category": "AI / Research infrastructure",
+      "subtitle": "My self-hosted AI homelab and research hub.",
+      "description": "The home of my self-hosted MLOps infrastructure, local AI experimentation, research workflows, and systems engineering.",
+      "url": "https://homelab.rohanmarar.com",
+      "linkLabel": "Explore the homelab",
+      "mark": "BL"
+    },
+    {
+      "title": "Aurevo Coffee",
+      "category": "Brand / Entrepreneurship",
+      "subtitle": "Born to be bold.",
+      "description": "My independent coffee brand, built around carefully considered design, good coffee, and a little ambition.",
+      "url": "https://aurevo.rohanmarar.com",
+      "linkLabel": "Discover Aurevo",
+      "mark": "A"
+    }
   ]
 }
